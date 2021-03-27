@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    height: 100vh;
+    width:auto;
+    grid-template-rows: auto 1fr auto;
+    margin:0;
+  }
+  
+  header {
+      position: relative;
+    background: rgb(241, 236, 237);
+    padding: 2rem;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr auto
+  }
+  
+  main {
+    background: coral;
+    padding: 2rem;
+    grid-row: 2;
+  }
+
+  
+  footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+    grid-row: 3;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+    color:black
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .headerlinks {
+      position:absolute;
+    padding: 1rem;
+ bottom: 0;
+  }
